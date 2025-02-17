@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Portfolio() {
   const imageDetails = {
     1: {
@@ -82,10 +84,17 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="bg-portfolio w-screen relative">
-      <h1 className="text-2xl md:text-3xl text-white font-bold text-center bg-emerald-950 shadow-md shadow-cyan-950 fixed top-0 right-0 left-0">
-        Portfolio
-      </h1>
+    <div className="bg-portfolio w-screen relative ">
+      <nav className="fixed top-0 right-0 left-0 bg-emerald-950 shadow-md shadow-cyan-950 flex">
+        <Link
+          to={"/"}
+          className="text-2xl md:text-3xl text-white font-bold ml-2 flex-[1]"
+        >
+          Home
+        </Link>
+        <h1 className="text-2xl md:text-3xl text-white font-bold">Portfolio</h1>
+        <div className="flex-[1]"></div>
+      </nav>
       <div className="flex flex-col items-center">
         {Object.keys(imageDetails).map((image) => {
           return (

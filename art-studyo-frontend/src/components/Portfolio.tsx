@@ -55,6 +55,30 @@ export default function Portfolio() {
       shopUrl: "https://www.etsy.com/listing/1875689113/ar-rahman",
       title: "Ar-Rahman",
     },
+    10: {
+      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/xnyrgv09ca4hau23qksy",
+      alt: "Drawing of a building with oranges in front",
+      shopUrl: "",
+      title: "*Not available*",
+    },
+    11: {
+      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/h9csxn0gjkyeiflscsss",
+      alt: "Drawing of an old village with people and a donkey",
+      shopUrl: "",
+      title: "*Not available*",
+    },
+    12: {
+      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/jrco5l6doqajo55ksu4o",
+      alt: "Drawing of some flowers and Arabic text",
+      shopUrl: "",
+      title: "*Not available*",
+    },
+    13: {
+      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/h3xcw8tgsrtnixurs65g",
+      alt: "Drawing of a white mosque",
+      shopUrl: "",
+      title: "*Not available*",
+    },
   };
 
   return (

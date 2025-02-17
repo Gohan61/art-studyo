@@ -27,9 +27,15 @@ html {
 @layer utilities {
   .bg-paint {
     background:
-      linear-gradient(to right, rgb(107, 139, 99), rgb(24, 92, 60)),
-      url("../assets/paint-palette-artist-svgrepo-com.svg");
-    background-size: cover; /* Adjust as needed */
-    background-blend-mode: overlay; /* Optional */
+      linear-gradient(to right, rgb(147, 182, 139), rgb(78, 99, 89)),
+      url("../assets/Adsız_Resim.JPG");
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+
+  .bg-portfolio {
+    background: linear-gradient(to right, rgb(107, 139, 99), rgb(24, 92, 60));
+    background-size: cover;
+    background-blend-mode: overlay;
   }
 }

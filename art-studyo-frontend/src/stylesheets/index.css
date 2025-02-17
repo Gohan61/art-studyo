@@ -26,10 +26,7 @@ html {
 
 @layer utilities {
   .bg-paint {
-    background:
-      linear-gradient(to right, rgb(147, 182, 139), rgb(78, 99, 89)),
-      url("../assets/Adsız_Resim.JPG");
-    background-size: cover;
+    background: linear-gradient(to right, rgb(147, 182, 139), rgb(78, 99, 89));
     background-blend-mode: overlay;
   }
 

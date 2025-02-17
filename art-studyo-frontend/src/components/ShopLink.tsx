@@ -6,6 +6,7 @@ export default function ShopLink() {
       <a
         href="https://www.etsy.com/shop/Selenartstudyo"
         rel="noreferrer noopener"
+        target="_blank"
         className=""
       >
         <h2 className="text-lg md:text-2xl text-white font-bold">

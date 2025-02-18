@@ -122,7 +122,7 @@ export default function Portfolio() {
                 <img
                   src={imageDetails[image].url}
                   alt={imageDetails[image].alt}
-                  className="max-w-[1500px] w-[80vw] object-contain"
+                  className="max-w-[1000px] w-[80vw] object-contain"
                   loading="lazy"
                 />
               </a>
@@ -134,7 +134,7 @@ export default function Portfolio() {
                 <img
                   src={imageDetails[image].url}
                   alt={imageDetails[image].alt}
-                  className="max-w-[1500px] w-[80vw] object-contain"
+                  className="max-w-[1000px] w-[80vw] object-contain"
                   loading="lazy"
                 />
               </div>

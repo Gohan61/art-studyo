@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import { portfolioObject } from "../types/types";
 
 export default function Portfolio() {
-  const imageDetails = {
+  const imageDetails: portfolioObject = {
     1: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/dlgvzvh32hjsqzkgkfuv",
       alt: "Drawing of Masjid Al-Quba (a mosque)",
@@ -109,7 +110,8 @@ export default function Portfolio() {
         <div className="flex-[1]"></div>
       </nav>
       <div className="flex flex-col items-center">
-        {Object.keys(imageDetails).map((image) => {
+        {Object.keys(imageDetails).map((imageId: string) => {
+          const image = Number(imageId);
           if (imageDetails[image].available) {
             return (
               <a

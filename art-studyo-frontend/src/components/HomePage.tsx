@@ -27,6 +27,7 @@ export default function HomePage() {
         src="https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/be8a02daljyti2nbiour"
         alt=""
         className="contain w-2xs sm:w-lg rounded-sm mt-auto ml-auto z-10"
+        loading="lazy"
       />
       <img
         src={brushImage}

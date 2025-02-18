@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="w-full min-h-screen bg-paint flex flex-col justify-start items-center">
       <div className="w-full grid grid-cols-2 grid-rows-3 z-10">
         <PortfolioLink></PortfolioLink>
-        <div className="self-center justify-self-end mr-6 text-white text-md font-bold">
+        <div className="self-center justify-self-end mr-6 text-white text-md font-bold lg:justify-self-start lg:ml-20">
           <a
             href="https://instagram.com/selenart.studyo"
             rel="noreferrer noopener"

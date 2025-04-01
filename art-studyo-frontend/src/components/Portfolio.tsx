@@ -25,20 +25,13 @@ export default function Portfolio() {
       available: true,
     },
     4: {
-      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/v0nqckiwqkv784a6mr38",
-      alt: "Drawing of Mura",
-      shopUrl: "https://www.etsy.com/listing/1861507550/mura",
-      title: "Mura",
-      available: true,
-    },
-    5: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/ey6eoct2ejk6spadxr61",
       alt: "Drawing of figs",
       shopUrl: "https://www.etsy.com/listing/1875685609/at-tin",
       title: "At-Tin",
       available: true,
     },
-    6: {
+    5: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/yxmlw5jsgxj1nldqwv4u",
       alt: "Drawing of Arabic text",
       shopUrl:
@@ -46,26 +39,33 @@ export default function Portfolio() {
       title: "HasbunAllahu wa ni'mal wakeel",
       available: true,
     },
-    7: {
+    6: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/sey0f5ylpic4jsxizrfq",
       alt: "Drawing of flowers",
       shopUrl: "https://www.etsy.com/listing/1861489958/al-jabbar",
       title: "Al-Jabbar",
       available: true,
     },
-    8: {
+    7: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/sw9fnbvdzht0ws1qevzk",
       alt: "Drawing of the mosque Masjid An-Nabawi in Medina",
       shopUrl: "https://www.etsy.com/listing/1874392675/masjid-an-nabawi",
       title: "Masjid An-Nabawi",
       available: true,
     },
-    9: {
+    8: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/vcrosprforwdrvnojixy",
       alt: "Drawing of some Arabic text above a pomegranate",
       shopUrl: "https://www.etsy.com/listing/1875689113/ar-rahman",
       title: "Ar-Rahman",
       available: true,
+    },
+    9: {
+      url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/v0nqckiwqkv784a6mr38",
+      alt: "Drawing of Mura",
+      shopUrl: "https://www.etsy.com/listing/1861507550/mura",
+      title: "*Not available*",
+      available: false,
     },
     10: {
       url: "https://res.cloudinary.com/du5var2so/image/upload/f_auto,q_auto/v1/selenart/xnyrgv09ca4hau23qksy",
